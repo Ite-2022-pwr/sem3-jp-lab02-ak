@@ -1,0 +1,24 @@
+- obywatel zgłasza chęć wycięcia drzewa
+- obywatel przegląda decyzje
+
+Architektura:
+1. DAO
+    - projektowanie interfejsu dostępu do danych
+    - nie będzie działać równolegle (raz jeden coś zrobi z plikem raz drugi)
+    - Klasa implementująca odpowiedni interfejs dao
+    - zmienna typu interfejs i konstruktor odpowiedniej implementacji
+Bazy danych:
+    - np. sqlite (baza w pliku)
+    - baza
+    - dependencies w pom.xml
+    - file new data src sqlite
+2. JPA i Hibernate
+    - baza generowana przez framework
+    - spring boot
+    - wtedy repozytoria i serwisy ("taka kanapkowa struktura")
+Interfejs użytkownika:
+    - Swing lub JavaFX (w Swingu prościej)
+    - JavaFX to osobny runtime, Swing - ten sam
+    - ciężko połączyć JavaFX ze spring bootem
+
+Można zrobić REST API w Springu :DD
