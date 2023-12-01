@@ -1,5 +1,7 @@
 # Języki Programowania - Lab02 - TN
 
+Prowadzący: [dr inż. Tomasz Kubik](http://tomasz.kubik.staff.iiar.pwr.wroc.pl/)
+
 ## Treść Zadania
 
 Podczas laboratorium należy rozwiązać problem optymalizacyjny zdefiniowany poniżej. Załóżmy, że jakaś firma organizuje wyjazd na narty. W wyjeździe tym biorą udział uczestnicy w różnym wieku i o różnych preferencjach co do wykorzystywanego sprzętu. Preferencje dotyczące nart (inny sprzęt pomijamy) zapisano w pliku preferences.txt o zawartości:
